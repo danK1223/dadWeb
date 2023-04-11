@@ -14,16 +14,16 @@ body {
 
 header {
     width: 100vw;
-    height: 70vh;
+    height: 40vh;
 }
 
 nav {
     width: 90%;
     margin: 10px auto;
+    text-align: center;
 }
 nav ul li {
     display: inline-block;
-    text-align: left;
 }
 nav ul li a {
     text-decoration: none;
@@ -53,17 +53,19 @@ nav ul li a:hover {
     font-size: 130%;
     color: brown;
     text-align: right;
+    position: relative; top: -10px
 }
 .email :hover {
     color: aqua;
 }
 .social-media-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 40vw;
     margin: 0 auto;
     text-align: right;
+    position: relative; top: -80px; right: -90px;
 }
 .social-media-icon {
     margin: 0px 7.5px;
@@ -184,10 +186,11 @@ img:hover { opacity: 0.7; }
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
-    margin: 0;  
-    background-color: navajowhite;
+    margin: 20px;
 }
 .split-list li {
-    width: calc(50% - 10px); 
+    width: calc(15% - 10px); 
     margin: 5px;
+    padding: 20px;
+    border-radius: 15px;    
 }
