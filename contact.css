@@ -1,3 +1,15 @@
-form {
+div {
     text-align: center;
+}
+form {
+    padding: 10px;   
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid aqua;
+    border-radius: 40px;
+    display: inline-table;
+    background-color: cornflowerblue;
+}
+.btn {
+    width: 130%;
 }
