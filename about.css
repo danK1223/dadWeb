@@ -17,18 +17,3 @@
     display: inline-block;
     font-size: 110%;
 }
-@media screen and (min-width: 768px) {
-    .image {
-        height: 400px;
-    }
-
-    .text {
-        padding: 40px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .image {
-        height: 500px;
-    }
-}
