@@ -12,8 +12,12 @@
     white-space: pre-line;
     margin: 50px 100px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 5px solid aqua;
-    border-radius: 60px;
     display: inline-block;
     font-size: 110%;
+}
+@media only screen and (max-width: 768px) {
+    .image {
+        width: 50%;
+        height: 50%;
+    }
 }
